@@ -9,19 +9,11 @@
     <Button
         android:id="@+id/btnNavi"
         android:layout_width="wrap_content"
-        android:layout_height="69dp"
-        android:layout_margin="150dp"
-        android:text="Siguiente" />
-
-
-    <TextView
-        android:id="@+id/tvName"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:textSize="40sp"
-        tools:text="SUSCRIBETE"/>
+        android:text="Ir a la tercera pantalla" />
+
+
+
 
 </FrameLayout>

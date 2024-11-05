@@ -6,13 +6,13 @@
     android:background="@color/red"
     tools:context=".ThirdFragment">
 
+
+
     <Button
-        android:id="@+id/btnNavigat"
-        android:layout_gravity="center"
+        android:id="@+id/btnNavi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Atras"/>
-
-
+        android:layout_gravity="center"
+        android:text="volver a la primera pantalla" />
 
 </FrameLayout>
