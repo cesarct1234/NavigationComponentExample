@@ -7,12 +7,21 @@
     android:background="@color/green"
     tools:context=".FirstFragment">
 
-    <Button
-        android:id="@+id/btnNavigate"
-        android:layout_gravity="center"
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ir a la segunda pantalla"/>
+        android:src="@drawable/calavera"
+        android:scaleType="centerCrop"/><!-- Nombre de tu imagen en drawable -->
+
+    <Button
+        android:id="@+id/btnNavigate"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/button_orange"
+        android:text="Ir a la segunda pantalla"
+        android:textColor="@color/red" />
 
 
 </FrameLayout>
