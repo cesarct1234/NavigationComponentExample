@@ -6,13 +6,20 @@
     android:background="@color/red"
     tools:context=".ThirdFragment">
 
-
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/eclipse" />
 
     <Button
         android:id="@+id/btnNavi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="volver a la primera pantalla" />
+        android:text="volver a la primera pantalla"
+        android:backgroundTint="@color/button_orange"
+        android:textColor="@color/red" />
 
 </FrameLayout>
