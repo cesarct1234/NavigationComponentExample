@@ -42,10 +42,10 @@ android {
 
 dependencies {
 
-    val navVersion = "2.7.0"
+    val navVersion = "2.8.4"
     //NavComponent
-    implementation("androidx.navigation:navigation-fragment-ktx:$navVersion")//iniciando una varible ya que se llamara una libreria
-    implementation("androidx.navigation:navigation-ui-ktx:$navVersion")
+    implementation(libs.navigation.fragment.ktx)//iniciando una varible ya que se llamara una libreria
+    implementation(libs.androidx.navigation.ui.ktx)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
@@ -55,5 +55,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation(libs.androidx.camera.camera2)
+    implementation(libs.androidx.camera.lifecycle)
+    implementation(libs.androidx.camera.view)
 }
 }
