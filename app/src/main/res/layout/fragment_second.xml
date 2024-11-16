@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/sol" /><!-- Nombre de tu imagen en drawable -->
+        android:src="@drawable/calavera2" /><!-- Nombre de tu imagen en drawable -->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Grabar"
-            android:backgroundTint="@color/button_blue"
+            android:backgroundTint="@color/button_red"
             android:textColor="@color/text_white" />
 
         <Button
@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Reproducir"
-            android:backgroundTint="@color/button_blue"
+            android:backgroundTint="@color/button_red"
             android:textColor="@color/text_white" />
 
         <Button
@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Detener"
-            android:backgroundTint="@color/button_blue"
+            android:backgroundTint="@color/button_red"
             android:textColor="@color/text_white" />
 
         <Button
@@ -51,8 +51,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Ir a la tercera pantalla"
-            android:backgroundTint="@color/button_blue"
+            android:text="Ir a la Camara"
+            android:backgroundTint="@color/button_red"
             android:textColor="@color/text_white" />
 
     </LinearLayout>

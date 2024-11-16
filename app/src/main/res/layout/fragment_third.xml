@@ -4,21 +4,50 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/red"
-    tools:context=".ThirdFragment">
+    tools:context=".ThirdFragment"
+    tools:ignore="ExtraText">
+
+
+    <!-- Espacio entre el texto y la imagen --><![CDATA["/>]]>
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/eclipse" />
+        android:src="@drawable/deppol" />
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@color/button_orange"
+        android:drawableBottom="@drawable/camara"
+        android:drawablePadding="16dp"
+        android:text="tomar foto "
+        android:textColor="@color/red" />
+
+    <Button
+        android:id="@+id/btnRecordVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@color/button_orange"
+        android:drawableBottom="@drawable/grabar"
+        android:drawablePadding="8dp"
+        android:text="Grabar Video"
+        android:textColor="@color/red" />
 
     <Button
         android:id="@+id/btnNavi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="volver a la primera pantalla"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="32dp"
+        android:text="Pantalla Principal"
         android:backgroundTint="@color/button_orange"
         android:textColor="@color/red" />
 

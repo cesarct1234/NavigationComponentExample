@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_graph"
     app:startDestination="@id/firstFragment">
+
+
     <fragment
         android:id="@+id/firstFragment"
         android:name="com.cesar.navigationcomponentexample.FirstFragment"
@@ -45,7 +47,6 @@
             app:argType="string"
             android:defaultValue="Guest" />
     </fragment>
-
 
 
 </navigation>

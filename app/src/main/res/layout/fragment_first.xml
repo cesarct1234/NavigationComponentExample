@@ -20,7 +20,7 @@
         android:layout_height="60dp"
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/button_orange"
-        android:text="Ir a la segunda pantalla"
+        android:text="ir a Grabar "
         android:textColor="@color/red" />
 
 
