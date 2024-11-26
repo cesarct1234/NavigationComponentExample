@@ -1,34 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Colores existentes -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-        <!-- Colores para botones o fondos -->
-        <color name="button_blue">#1E88E5</color> <!-- Azul fuerte -->
-        <color name="button_green">#43A047</color> <!-- Verde suave -->
-        <color name="button_orange">#FB8C00</color> <!-- Naranja -->
-        <color name="button_purple">#8E24AA</color> <!-- Púrpura -->
-        <color name="button_red">#E53935</color> <!-- Rojo vibrante -->
-
-        <!-- Colores para texto o acentos -->
-        <color name="text_white">#FFFFFF</color> <!-- Blanco -->
-        <color name="text_black">#212121</color> <!-- Negro suave -->
-        <color name="text_gray">#757575</color> <!-- Gris medio -->
-        <color name="text_dark_blue">#0D47A1</color> <!-- Azul oscuro -->
-
-        <!-- Colores pastel para fondos claros -->
-        <color name="background_pastel_yellow">#FFF9C4</color> <!-- Amarillo pastel -->
-        <color name="background_pastel_green">#C8E6C9</color> <!-- Verde pastel -->
-        <color name="background_pastel_blue">#BBDEFB</color> <!-- Azul pastel -->
-        <color name="background_pastel_pink">#F8BBD0</color> <!-- Rosa pastel -->
-
-        <!-- Colores de sombra o detalles -->
-        <color name="shadow_dark">#424242</color> <!-- Sombra oscura -->
-        <color name="shadow_light">#BDBDBD</color> <!-- Sombra clara -->
 
 
-    <color name="red">#FF0000</color>
-    <color name='blue'>#556FFF</color>
-    <color name='green'>#7CB342</color>
 
+    <!-- Otros colores -->
+    <color name="red">#FF0000</color> <!-- Color rojo -->
+    <!-- Colores de fondo y botones -->
+    <color name="button_normal_color">#6200EE</color> <!-- Color para el estado normal -->
+    <color name="button_pressed_color">#3700B3</color> <!-- Color para el estado presionado -->
+    <color name="button_disabled">#B3B3B3</color> <!-- Color para estado deshabilitado -->
+    <color name="button_text_color">#FFFFFF</color> <!-- Color del texto -->
+
+    <!-- Colores para botones -->
+    <color name="button_blue">#1E88E5</color> <!-- Azul fuerte -->
+    <color name="button_green">#43A047</color> <!-- Verde suave -->
+    <color name="button_orange">#FB8C00</color> <!-- Naranja -->
+    <color name="button_purple">#8E24AA</color> <!-- Púrpura -->
+    <color name="button_red">#E53935</color> <!-- Rojo vibrante -->
+    <color name="button_yellow">#FFEB3B</color> <!-- Amarillo brillante -->
+    <color name="button_light_blue">#03A9F4</color> <!-- Azul claro -->
+    <color name="button_cyan">#00BCD4</color> <!-- Cian -->
+    <color name="button_teal">#009688</color> <!-- Verde azulado -->
+    <color name="button_pink">#E91E63</color> <!-- Rosa -->
+    <color name="button_brown">#795548</color> <!-- Marrón -->
+    <color name="button_deep_purple">#673AB7</color> <!-- Púrpura oscuro -->
+    <color name="button_amber">#FFC107</color> <!-- Ámbar -->
+    <color name="button_lime">#CDDC39</color> <!-- Lima -->
+    <color name="button_indigo">#3F51B5</color> <!-- Índigo -->
+    <color name="button_light_green">#8BC34A</color> <!-- Verde claro -->
+    <color name="button_gray">#9E9E9E</color> <!-- Gris -->
+    <color name="button_black">#212121</color> <!-- Negro -->
+    <color name="button_white">#FFFFFF</color> <!-- Blanco -->
+    <color name="button_grey_blue">#607D8B</color> <!-- Gris azulado -->
+    <color name="button_light_pink">#F06292</color> <!-- Rosa claro -->
+
+
+    <!-- Colores para texto -->
+    <color name="text_white">#FFFFFF</color> <!-- Blanco -->
+    <color name="text_black">#212121</color> <!-- Negro suave -->
+    <color name="text_gray">#757575</color> <!-- Gris medio -->
+    <color name="text_dark_blue">#0D47A1</color> <!-- Azul oscuro -->
+
+    <!-- Colores pastel para fondos claros -->
+    <color name="background_pastel_yellow">#FFF9C4</color> <!-- Amarillo pastel -->
+    <color name="background_pastel_green">#C8E6C9</color> <!-- Verde pastel -->
+    <color name="background_pastel_blue">#BBDEFB</color> <!-- Azul pastel -->
+    <color name="background_pastel_pink">#F8BBD0</color> <!-- Rosa pastel -->
+
+    <!-- Colores de sombra o detalles -->
+    <color name="shadow_dark">#424242</color> <!-- Sombra oscura -->
+    <color name="shadow_light">#BDBDBD</color> <!-- Sombra clara -->
 </resources>

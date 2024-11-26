@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fondo normal del botón -->
+    <item android:drawable="@color/button_normal_color" android:state_enabled="true" />
+    <!-- Fondo cuando el botón está presionado -->
+    <item android:drawable="@color/button_pressed_color" android:state_pressed="true" />
+    <!-- Fondo cuando el botón está deshabilitado -->
+    <item android:drawable="@color/button_disabled" android:state_enabled="false" />
+</selector>
+
+
+
