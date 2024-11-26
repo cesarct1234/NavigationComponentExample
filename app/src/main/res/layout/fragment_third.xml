@@ -1,18 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/red"
     tools:context=".ThirdFragment">
 
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/deppol"/>
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btnTakePhoto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/btnNavi"
+        android:id="@+id/btnTakePhoto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="volver a la primera pantalla" />
+        android:text="Tomar Foto"
+        android:backgroundTint="@color/button_black"
+        app:layout_constraintBottom_toTopOf="@id/btnNavigateToFirst"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-</FrameLayout>
+    <Button
+        android:id="@+id/btnNavigateToFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir al Primer Fragmento"
+        android:backgroundTint="@color/button_black"
+        app:layout_constraintBottom_toTopOf="@id/btnNavigateToSecond"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnNavigateToSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir al Segundo Fragmento"
+        android:backgroundTint="@color/button_black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnRecordVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grabar Video"
+        android:backgroundTint="@color/button_black"
+        app:layout_constraintBottom_toTopOf="@id/btnTakePhoto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
